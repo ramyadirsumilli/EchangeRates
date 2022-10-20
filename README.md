@@ -12,3 +12,8 @@ Simple exchange rates Service stand-alone application with following features:
 - Trigger manual exchange rate fetching process - GET http://localhost:8080
 - Read current exchange rate in terms of X/Y - GET http://localhost:8080/pairConversion with Request Params  baseCode and targetCode from above valid list of currencies
 - Read the report data in terms of base currency: EUR - GET http://localhost:8080/dailyReport
+
+
+## Technical Requirements
+
+Uses Java 15 and built as Maven application. Run as Spring Application.
